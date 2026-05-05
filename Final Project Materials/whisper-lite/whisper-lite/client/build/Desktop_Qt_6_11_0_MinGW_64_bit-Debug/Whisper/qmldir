@@ -1,0 +1,10 @@
+module Whisper
+typeinfo appwhisper.qmltypes
+prefer :/qt/qml/Whisper/
+Main 1.0 qml/Main.qml
+LoginPage 1.0 qml/LoginPage.qml
+ChatPage 1.0 qml/ChatPage.qml
+MessageDelegate 1.0 qml/MessageDelegate.qml
+StatusIndicator 1.0 qml/StatusIndicator.qml
+depends QtQuick
+

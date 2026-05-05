@@ -1,0 +1,268 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-Debug-70e4927a02b591d5c1f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "whisper",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-fd9ee43949688a178837.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-b7573b32b1aa66dfc6dd.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-d1b93a7f3c5ff7059b9d.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-49427e263899c614a136.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-ed960994609da0b3b460.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appwhisper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appwhisper-Debug-77fa2c03c40c38ae56e9.json",
+					"name" : "appwhisper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appwhisper_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appwhisper_autogen-Debug-e551e3c5cdb78ba8b70b.json",
+					"name" : "appwhisper_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appwhisper_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appwhisper_autogen_timestamp_deps-Debug-5886bf0983c9c21656d8.json",
+					"name" : "appwhisper_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appwhisper_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appwhisper_copy_qml-Debug-d4f2e24dfb228860d2bd.json",
+					"name" : "appwhisper_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appwhisper_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appwhisper_copy_res-Debug-7cf43c87b8c70a39d76e.json",
+					"name" : "appwhisper_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appwhisper_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appwhisper_qmlimportscan-Debug-42a3f37bee5198c040c8.json",
+					"name" : "appwhisper_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appwhisper_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appwhisper_qmllint-Debug-2647bd115d5472dde0f7.json",
+					"name" : "appwhisper_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appwhisper_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appwhisper_qmllint_json-Debug-116ab8a05c899db2dbf0.json",
+					"name" : "appwhisper_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appwhisper_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appwhisper_qmllint_module-Debug-66a56a02e34881d60076.json",
+					"name" : "appwhisper_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appwhisper_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appwhisper_qmltyperegistration-Debug-276b8d508fcadca58779.json",
+					"name" : "appwhisper_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clean_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clean_qml_context_properties-Debug-849fd2b8f9eff6db4edb.json",
+					"name" : "clean_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dump_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dump_qml_context_properties-Debug-62f581dad2b8e44b9a01.json",
+					"name" : "dump_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_qmlls_build_ini_file-Debug-dcda1775b1618706fc50.json",
+					"name" : "generate_qmlls_build_ini_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appwhisper_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appwhisper_aotstats_target-Debug-4c76419637db4589e034.json",
+					"name" : "module_appwhisper_aotstats_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tst_store::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-tst_store-Debug-ca379d2842fcf9979de9.json",
+					"name" : "tst_store",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tst_store_autogen::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-tst_store_autogen-Debug-813328d06d81dbd0847c.json",
+					"name" : "tst_store_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tst_store_autogen_timestamp_deps::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-tst_store_autogen_timestamp_deps-Debug-fc5421c500b4913c5974.json",
+					"name" : "tst_store_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug",
+		"source" : "C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

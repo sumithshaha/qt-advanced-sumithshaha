@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="/qt/qml/Whisper/">
+    <file alias="qml/Main.qml">C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/qml/Main.qml</file>
+    <file alias="qml/LoginPage.qml">C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/qml/LoginPage.qml</file>
+    <file alias="qml/ChatPage.qml">C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/qml/ChatPage.qml</file>
+    <file alias="qml/MessageDelegate.qml">C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/qml/MessageDelegate.qml</file>
+    <file alias="qml/StatusIndicator.qml">C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/qml/StatusIndicator.qml</file>
+  </qresource>
+</RCC>
+

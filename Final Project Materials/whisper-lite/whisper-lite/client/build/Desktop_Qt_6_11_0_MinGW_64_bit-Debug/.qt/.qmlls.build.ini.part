@@ -1,0 +1,3 @@
+[C:<SLASH>Users<SLASH>Sumith<SLASH>Downloads<SLASH>whisper-lite<SLASH>whisper-lite<SLASH>client]
+importPaths="C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug;C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/Whisper;C:/Qt/6.11.0/mingw_64/qml"
+resourceFiles="C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/whisper_resources.qrc;C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qmake_Whisper.qrc;C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appwhisper_raw_qml_0.qrc"

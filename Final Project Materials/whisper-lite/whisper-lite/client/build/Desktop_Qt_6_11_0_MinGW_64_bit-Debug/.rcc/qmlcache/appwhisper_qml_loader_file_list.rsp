@@ -1,0 +1,11 @@
+--resource
+C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/whisper_resources.qrc
+--resource
+C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/qmake_Whisper.qrc
+--resource
+C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/.qt/rcc/appwhisper_raw_qml_0.qrc
+/qt/qml/Whisper/qml/Main.qml
+/qt/qml/Whisper/qml/LoginPage.qml
+/qt/qml/Whisper/qml/ChatPage.qml
+/qt/qml/Whisper/qml/MessageDelegate.qml
+/qt/qml/Whisper/qml/StatusIndicator.qml

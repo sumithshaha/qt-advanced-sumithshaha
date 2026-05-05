@@ -1,0 +1,6 @@
+set(__QT_DEPLOY_TARGET_tst_store_FILE C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/tst_store.exe)
+set(__QT_DEPLOY_TARGET_tst_store_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_tst_store_RUNTIME_DLLS C:/Qt/6.11.0/mingw_64/bin/Qt6Test.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6Sql.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6Core.dll)
+set(__QT_DEPLOY_TARGET_appwhisper_FILE C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/appwhisper.exe)
+set(__QT_DEPLOY_TARGET_appwhisper_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_appwhisper_RUNTIME_DLLS C:/Qt/6.11.0/mingw_64/bin/Qt6QuickControls2.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6WebSockets.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6Sql.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6QuickTemplates2.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6Quick.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6OpenGL.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6Gui.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6QmlMeta.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6QmlWorkerScript.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6QmlModels.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6Qml.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6Network.dll;C:/Qt/6.11.0/mingw_64/bin/Qt6Core.dll)

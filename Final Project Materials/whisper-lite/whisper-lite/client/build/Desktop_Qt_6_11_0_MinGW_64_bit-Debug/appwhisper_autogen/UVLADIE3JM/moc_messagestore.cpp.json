@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "MessageStore",
+            "lineNumber": 26,
+            "object": true,
+            "qualifiedClassName": "MessageStore",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "messagestore.h",
+    "outputRevision": 69
+}

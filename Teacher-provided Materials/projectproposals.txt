@@ -1,0 +1,211 @@
+Ready-Made Project Proposals
+Qt Advanced Course — TT00GD57
+
+Each proposal is scoped for ~135 hours (5 cr) and meets the pass/fail criteria:
+QML UI + C++ backend, runs on a target device, uses at least one network protocol.
+
+
+1. MQTT Sensor Dashboard
+
+Platform: RPi (Boot to Qt) or desktop
+Domain: Industrial / IoT
+Networking: MQTT (Qt MQTT module)
+
+A QML dashboard that subscribes to MQTT topics from a simulated or real sensor
+(temperature, humidity, pressure) and displays live data with graphs. C++ backend
+handles MQTT connection, parses incoming messages, and exposes data to QML via
+Q_PROPERTY.
+
+Key features:
+- Connect/disconnect to a configurable MQTT broker
+- Subscribe to multiple topics with wildcard support
+- Live line charts using Qt Charts or Qt Graphs
+- Alarm thresholds with visual indicators
+
+Stretch goals: Historical data storage (SQLite), QoS level configuration,
+dashboard layout editor.
+
+
+2. OPC UA Machine Monitor
+
+Platform: Desktop or embedded Linux
+Domain: Industrial automation
+Networking: OPC UA (Qt OPC UA module)
+
+Connect to a public OPC UA test server, browse the node tree, and display machine
+state in a QML panel. C++ backend handles the OPC UA session, subscriptions, and
+data change notifications.
+
+Key features:
+- Server connection with endpoint discovery
+- Node tree browser in QML (TreeView)
+- Live monitoring of selected nodes with data change subscriptions
+- Status panel showing server state and connection health
+
+Stretch goals: Write support for writable nodes, event subscription, multiple
+server connections.
+
+
+3. Android Remote Control App
+
+Platform: Android
+Domain: Mobile / IoT
+Networking: WebSockets
+
+A Qt/QML Android app that communicates over WebSockets with a backend service
+(can be a simple Python or Node echo server). UI has interactive controls
+(buttons, sliders, toggles) and a status display showing the connection state
+and server responses.
+
+Key features:
+- WebSocket connect/disconnect with auto-reconnect
+- Control panel with buttons, sliders, and toggles that send JSON commands
+- Status display showing server responses in real-time
+- Android-friendly touch UI with proper scaling
+
+Stretch goals: Add a camera preview (Qt Multimedia), send images over WebSocket,
+support multiple server profiles.
+
+
+4. Automotive Instrument Cluster
+
+Platform: RPi with touchscreen or desktop
+Domain: Automotive
+Networking: CAN Bus (Qt Serial Bus) or simulated via timer
+
+A simulated instrument cluster in QML: speedometer, RPM gauge, turn indicators,
+warning lights. C++ backend generates mock vehicle data (CAN-like frames) and
+exposes it via signals/slots.
+
+Key features:
+- Animated gauge dials (speed, RPM, fuel, temperature)
+- Warning light indicators (engine, battery, oil, doors)
+- Smooth animations and transitions
+- Demo mode with scripted driving scenarios
+
+Stretch goals: Real CAN Bus input from a USB adapter, night/day mode toggle,
+ADAS-style camera overlay placeholder.
+
+
+5. Smart Home Control Panel
+
+Platform: RPi (Boot to Qt) or desktop
+Domain: IoT / home automation
+Networking: MQTT + WebSockets
+
+A QML-based home automation dashboard that controls lights, thermostat, and other
+devices via MQTT. A secondary WebSocket interface allows control from a phone or
+browser.
+
+Key features:
+- Room-by-room view with device controls (on/off, dimmer, thermostat setpoint)
+- MQTT publish/subscribe for device commands and status updates
+- WebSocket server for remote access from a browser
+- Scene presets (e.g., "Movie Night", "Away")
+
+Stretch goals: Scheduling/timers, energy usage graphs, integration with a real
+smart plug or bulb (e.g., Zigbee2MQTT).
+
+
+6. CoAP Weather Station Display
+
+Platform: RPi or desktop
+Domain: IoT / environmental monitoring
+Networking: CoAP (Qt CoAP module)
+
+A lightweight QML display for a CoAP-based weather station. The C++ backend acts
+as a CoAP client, fetching resource values (temperature, humidity, wind speed)
+from a CoAP server and presenting them in a clean dashboard.
+
+Key features:
+- CoAP GET/OBSERVE for sensor resources
+- Dashboard with current readings and min/max values
+- Resource discovery using CoAP /.well-known/core
+- Connection status and error handling display
+
+Stretch goals: CoAP PUT to configure sensor intervals, multi-sensor support,
+data logging to file.
+
+
+7. ModBus Industrial I/O Viewer
+
+Platform: Desktop or embedded Linux
+Domain: Industrial automation
+Networking: ModBus (Qt Serial Bus module)
+
+A QML tool for reading and writing ModBus registers from PLCs or simulated
+devices. Aimed at students interested in industrial control systems.
+
+Key features:
+- Connect via ModBus TCP or RTU (serial)
+- Read holding registers, input registers, coils, and discrete inputs
+- Write to holding registers and coils
+- Table view with live polling and configurable intervals
+
+Stretch goals: Register map import (CSV), data logging, graphical display for
+analog values.
+
+
+8. Chat Application with Encrypted Messaging
+
+Platform: Android or desktop
+Domain: Mobile / networking
+Networking: WebSockets + TLS
+
+A simple chat app where users connect to a WebSocket server, exchange messages
+in real-time, and see online status of others. Focuses on Qt networking, TLS
+configuration, and responsive QML UI.
+
+Key features:
+- User login with nickname
+- Real-time message exchange via WebSocket
+- Online user list with presence updates
+- Message history (in-memory or SQLite)
+
+Stretch goals: File/image sharing, end-to-end encryption, push notifications
+on Android.
+
+
+9. Fleet Tracker Map Display
+
+Platform: Desktop or RPi
+Domain: Automotive / logistics
+Networking: MQTT or WebSockets
+
+A QML map view (Qt Location) showing the real-time position of one or more
+vehicles. C++ backend receives GPS coordinates via MQTT or WebSocket and updates
+the map markers.
+
+Key features:
+- Map display with vehicle markers using Qt Location / Qt Positioning
+- MQTT subscription for position updates (lat/lon/heading)
+- Vehicle info popup on marker tap
+- Trail/path display for recent movement
+
+Stretch goals: Geofence alerts, speed display, simulated multi-vehicle scenario
+with replay from GPS log file.
+
+
+10. Qt for MCUs Control Panel
+
+Platform: Desktop (Qt for MCUs simulator) or STM32 if available
+Domain: MCU / embedded
+Networking: Platform-provided networking (not Qt modules), e.g. Paho Embedded C
+for MQTT, raw BSD/LWIP sockets for TCP. Ask teacher for guidance on integration.
+
+A minimal QML UI built with Qt for MCUs, running in the desktop simulator. The
+app controls simulated I/O (LEDs, relays, sensors) and can communicate over the
+network using platform-provided libraries bridged to QML via Qul::Singleton and
+Qul::EventQueue. The focus is on working within Qt for MCUs constraints: limited
+QML subset, no Qt Quick Controls, static resource loading, restricted memory
+model.
+
+Key features:
+- Toggle buttons for simulated GPIO pins
+- Status indicators showing current pin state
+- Simple animations within Qt for MCUs capabilities
+- Demonstrate understanding of QUL (Qt Ultra Lite) restrictions vs. full Qt Quick
+
+Stretch goals: Deploy to a real MCU board if hardware is available, MQTT
+connectivity via Paho Embedded C, UART communication with a host PC, basic
+sensor input display.

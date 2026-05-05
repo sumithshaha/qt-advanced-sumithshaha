@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="whisper_ca.pem">C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/android/res/raw/whisper_ca.pem</file>
+    <file alias="spki_pin.txt">C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/android/res/raw/spki_pin.txt</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Whisper">
+    <file alias="qmldir">C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/Whisper/qmldir</file>
+  </qresource>
+</RCC>
+

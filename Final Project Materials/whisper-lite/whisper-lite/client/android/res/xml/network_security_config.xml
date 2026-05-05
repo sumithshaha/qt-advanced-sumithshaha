@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!--
+        Production posture: only system-trusted CAs, no cleartext.
+    -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+
+    <!--
+        Debug builds (android:debuggable="true") additionally trust:
+          - our self-signed CA bundled as @raw/whisper_ca
+          - any user-installed cert (so QA can use mitmproxy etc.)
+        These overrides are silently ignored in release builds, so we cannot
+        accidentally ship a permissive config to production.
+    -->
+    <debug-overrides>
+        <trust-anchors>
+            <certificates src="@raw/whisper_ca"/>
+            <certificates src="user"/>
+        </trust-anchors>
+    </debug-overrides>
+</network-security-config>

@@ -1,0 +1,7 @@
+C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/appwhisper_autogen/include/../UVLADIE3JM/moc_chatcontroller.cpp.json
+C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/appwhisper_autogen/include/../UVLADIE3JM/moc_messagemodel.cpp.json
+C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/appwhisper_autogen/include/../UVLADIE3JM/moc_messagestore.cpp.json
+C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/appwhisper_autogen/include/../UVLADIE3JM/moc_notificationhelper.cpp.json
+C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/appwhisper_autogen/include/../UVLADIE3JM/moc_settings.cpp.json
+C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/appwhisper_autogen/include/../UVLADIE3JM/moc_usermodel.cpp.json
+C:/Users/Sumith/Downloads/whisper-lite/whisper-lite/client/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/appwhisper_autogen/include/../UVLADIE3JM/moc_wsclient.cpp.json
